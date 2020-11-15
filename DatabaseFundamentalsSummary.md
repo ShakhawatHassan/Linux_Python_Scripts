@@ -22,3 +22,6 @@ In this query, the program will show us partnum, bktitle, and slprice columns fr
 * There are OR, AND, NOT, BETWEEN, AND NOT, and IN operators which are used to specify conditions in an SQL statement and to serve as conjuctions for multiple conditions in a statement. Arithmetic operators can perform arithmetical operations on numeric operands involved.
 There are IS NULL and IS NOT NULL clauses which can show us if there's a null value in the column/s. 
 * There are also wildcards option where we can modify and specify for each column/s how we want to view. For example, the wildcard '%' permits substituting one or more characters in a field, and this wildcard ' _ ' permits susbstituting a single character in a syntax expression. For instance, this 'c%' will give us any book title value that begins with "c."
+
+### Working with function
+
