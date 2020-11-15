@@ -1,16 +1,19 @@
-
 # Database Fundamentals Summary
 
- Lesson 5: Performing a Conditional Search • 
- Lesson 6: Working with Functions • 
- Lesson 7: Organizing Data • 
- Lesson 8: Retrieving Data from Multiple Tables • 
- Lesson 9: Indexes • 
- Lesson 10: Updating/Deleting Tables • 
- Lesson 11: Backup and Restore
- 
- 
- ##  Lesson 5: Performing a Conditional Search
+* Performing a Conditional Search • 
+* Working with Functions • 
+* Organizing Data • 
+* Retrieving Data from Multiple Tables • 
+* Indexes  
+* Updating/Deleting Tables
+* Backup and Restore
+
+## Performing a Conditional Search
 
 ### Single Search Condition
-ewaesrf
+SELECT ordnum, sldate, qty, partnum, repid FROM sales
+WHERE repid =  'NO2';
+
+We would like to view ordnum, sldate, qty, partnum, and repid columns from sales table and the condition is where repid column equals to 'NO2.' 
+
+### Multiple 
